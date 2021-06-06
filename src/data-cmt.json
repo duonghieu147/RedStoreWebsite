@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "name":"Dương Văn Hiếu",
+        "cmt":"It looks so beautiful. I like It",
+        "time":"6/2021",
+        "imguser":"./images/user-1.png"
+    },
+    {
+        "id":2,
+        "name":"Nhân",
+        "cmt":"It seems a bit expensive",
+        "time":"6/2021",
+        "imguser":"./images/user-2.png"
+    },
+    {
+        "id":3,
+        "name":"Dương Văn Nhi",
+        "cmt":"I have received the item. it's amazing",
+        "time":"6/2021",
+        "imguser":"./images/user-3.png"
+    }
+]

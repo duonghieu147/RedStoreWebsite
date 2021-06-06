@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "user": "duonghieu",
+        "name": "Duong Van Hieu",
+        "age": "22",
+        "add": "Le Thuy, Quang Binh",
+        "adm": "adm"
+    },
+{
+        "id": 2,
+        "user": "duongnhan",
+        "name": "Duong Van Nhan",
+        "age": 20,
+        "add": "Le Thuy, Quang Binh",
+        "adm": "user"
+    },
+{
+        "id": 3,
+        "user": "duongnhi",
+        "name": "Duong Thi Nhi",
+        "age": 10,
+        "add": "Le Thuy, Quang Binh",
+        "adm": "user"
+    }
+]

@@ -1,0 +1,109 @@
+[
+    {
+        "id":1,
+        "type":"shirt",
+        "name":"Item 1",
+        "price":"10",
+        "imgurl":"./images/product-1.jpg",
+        "content":"Description Something about item product details . Something something",
+        "discount":"0"
+    },
+    {
+        "id":2,
+        "type":"shirt",
+        "name":"Item 2",
+        "price":"20",
+        "imgurl":"./images/product-2.jpg",
+        "content":"Description Something about item product details . Something something",
+        "discount":"0"
+    },{
+        "id":3,
+        "type":"shirt",
+        "name":"Item 3",
+        "price":"30",
+        "imgurl":"./images/product-3.jpg",
+        "content":"Description Something about item product details . Something something",
+        "discount":"0"
+    },
+    {
+        "id":4,
+        "type":"shirt",
+        "name":"Item 4",
+        "price":"40",
+        "imgurl":"./images/product-5.jpg",
+        "content":"Description Something about item product details . Something something",
+        "discount":"0"
+    },
+    {
+        "id":5,
+        "type":"shirt",
+        "name":"Item 5",
+        "price":"50",
+        "imgurl":"./images/product-5.jpg",
+        "content":"Description Something about item product details . Something something",
+        "discount":"0"
+    },
+    {
+        "id":6,
+        "type":"shirt",
+        "name":"Item 6",
+        "price":"50",
+        "imgurl":"./images/product-6.jpg",
+        "content":"Description Something about item product details . Something something",
+        "discount":"0"
+    },
+    {
+        "id":7,
+        "type":"shirt",
+        "name":"Item 7",
+        "price":"60",
+        "imgurl":"./images/product-7.jpg",
+        "content":"Description Something about item product details . Something something",
+        "discount":"0"
+    },
+    {
+        "id":8,
+        "type":"shirt",
+        "name":"Item 8",
+        "price":"50",
+        "imgurl":"./images/product-8.jpg",
+        "content":"Description Something about item product details . Something something",
+        "discount":"0"
+    },
+    {
+        "id":9,
+        "type":"shirt",
+        "name":"Item 9",
+        "price":"50",
+        "imgurl":"./images/product-9.jpg",
+        "content":"Description Something about item product details . Something something",
+        "discount":"0"
+    },
+    {
+        "id":10,
+        "type":"shirt",
+        "name":"Item 10",
+        "price":"50",
+        "imgurl":"./images/product-10.jpg",
+        "content":"Description Something about item product details . Something something",
+        "discount":"0"
+    },
+    {
+        "id":11,
+        "type":"shirt",
+        "name":"Item 11",
+        "price":"50",
+        "imgurl":"./images/product-11.jpg",
+        "content":"Description Something about item product details . Something something",
+        "discount":"0"
+    },
+    {
+        "id":12,
+        "type":"shirt",
+        "name":"Item 12",
+        "price":"50",
+        "imgurl":"./images/product-12.jpg",
+        "content":"Description Something about item product details . Something something",
+        "discount":"0"
+    }
+]
