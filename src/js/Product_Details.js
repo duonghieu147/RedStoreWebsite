@@ -3,18 +3,29 @@ import Footer from './Footer';
 import Item0 from './Item0';
 import Item2 from './Item2';
 import Navigation from './Navigation';
+import dl from '../data-items.json';
+
 
 
 class Product_Details extends Component {
+
   render() {
+    console.log(this.props); 
     return (
-      <div>
-        <div className="container">
-          <Navigation></Navigation>
-        </div>
-        {/* </div> */}
+      <div>      
+        <Navigation></Navigation>      
         {/*----single product details */}
-        <Item0></Item0>
+        <div className="small-container single-product">
+        {
+          dl.map((item, key) => {
+            if (item.id == 2) {
+              return ( 
+                <Item0 key={key} type={item.type} title={item.name} imgmain={item.imgurl} price={item.price} content={item.content}>      
+                </Item0>)
+            }
+          })
+        }
+        </div>
         {/*---title----*/}
         <div className="small-container">
           <div className="row row-2" />
@@ -32,9 +43,6 @@ class Product_Details extends Component {
         </div>
         {/* footer */}
         <Footer></Footer>
-        {/* --------js for toggle menu */} 
-        {/* -----js for product gallery  */}
-
       </div>
     );
   }

@@ -7,6 +7,7 @@ import Item3 from './Item3';
 import Cmt1 from './Cmt1';
 import Brand from './Brand';
 import Footer from './Footer';
+import Navigation from './Navigation';
 
 
 
@@ -19,22 +20,7 @@ class Redstore extends Component {
             <div>
                 <div className="header">
                     <div className="container">
-                        <div className="navbar">
-                            <div className="logo">
-                                <img src="images/logo.png" with="125px" alt="description" />
-                            </div>
-                            <nav>
-                                <ul id="MenuItems">
-                                    <li><a href="/">Home</a></li>
-                                    <li><a href="Products">Products</a></li>
-                                    <li><a href="About">About</a></li>
-                                    <li><a href="Contact">Contact</a></li>
-                                    <li><a href="Account">Account</a></li>
-                                </ul>
-                            </nav>
-                            <img src="./images/cart.png" with="30px" height="30px" alt="description"/>
-                            <img src="./images/menu.png" className="menu-icon" onclick="menutoggle()" alt="description"/>
-                        </div>
+                        <Navigation></Navigation>
                         <div className="row">
                             <div className="col-2">
                                 <h1>Why Not Me ?<br />I Not Her!</h1>
@@ -69,7 +55,7 @@ class Redstore extends Component {
                                 if (item.id <= 8) {
                                     return (
                                         <Item2
-                                            key={key} id={this.id} title={item.name} img={item.imgurl} price={item.price}>
+                                            key={key} iditem2={item.id} title={item.name} img={item.imgurl} price={item.price}>
                                         </Item2>)
                                 }
                             })
@@ -83,7 +69,7 @@ class Redstore extends Component {
                                 if (item.id > 8) {
                                     return (
                                         <Item2
-                                            key={key} id={this.id} title={item.name} img={item.imgurl} price={item.price}>
+                                            key={key} iditem2={item.id} title={item.name} img={item.imgurl} price={item.price}>
                                         </Item2>)
                                 }
                             })

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import dl from '../data-items.json';
-
 import Item2 from './Item2';
 import Navigation from './Navigation';
 
-
-
 class Products extends Component {
+  
   render() {
+    console.log(this.props);
+    console.log(dl.map(x=>x));
     return (
       <div>
         <Navigation></Navigation>
@@ -25,10 +25,10 @@ class Products extends Component {
           <div className="row">
             {
               dl.map((item, key) => {
-                if (item.type === 'shirt') {
-                  return (
+                if (item.id === item.id) {
+                  return ( 
                     <Item2
-                      key={key} id={this.id} title={item.name} img={item.imgurl} price={item.price}>
+                      key={key} iditem2={item.id} title={item.name} img={item.imgurl} price={item.price}>      
                     </Item2>)
                 }
                 else{
