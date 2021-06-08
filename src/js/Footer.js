@@ -10,12 +10,12 @@ class Footer extends Component {
                             <h3>Download Our App</h3>
                             <p>Download App for Abdroid and ios mobile phone</p>
                             <div className="app-logo">
-                                <img src="./images/play-store.png" alt="description"/>
-                                <img src="./images/app-store.png" alt="description"/>
+                                <img src="/images/play-store.png" alt="description"/>
+                                <img src="/images/app-store.png" alt="description"/>
                             </div>
                         </div>
                         <div className="footer-col-2">
-                            <img src="./images/logo-white.png" alt="description"/>
+                            <img src="/images/logo-white.png" alt="description"/>
                             <p>Download App for Abdroid and ios mobile phone Download App for Abdroid and ios mobile phone</p>
                         </div>
                         <div className="footer-col-3">

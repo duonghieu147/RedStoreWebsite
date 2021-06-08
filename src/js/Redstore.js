@@ -32,7 +32,7 @@ class Redstore extends Component {
                                 <a href className="btn">Explore Now →</a>
                             </div>
                             <div className="col-2">
-                                <img src="./images/image1.png" alt="description"/>
+                                <img src="/images/image1.png" alt="description"/>
                             </div>
                         </div>
                     </div>
@@ -41,9 +41,9 @@ class Redstore extends Component {
                 <div className="categories">
                     <div className="small-container">
                         <div className="row">
-                            <Item1 imgcategory="./images/category-1.jpg"></Item1>
-                            <Item1 imgcategory="./images/category-2.jpg"></Item1>
-                            <Item1 imgcategory="./images/category-3.jpg"></Item1>
+                            <Item1 imgcategory="/images/category-1.jpg"></Item1>
+                            <Item1 imgcategory="/images/category-2.jpg"></Item1>
+                            <Item1 imgcategory="/images/category-3.jpg"></Item1>
                         </div>
                     </div>
                 </div>

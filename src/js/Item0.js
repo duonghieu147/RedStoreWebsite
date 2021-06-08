@@ -12,19 +12,19 @@ class Item0 extends Component {
             <div className="small-container single-product">
                 <div className="row">
                     <div className="col-2" id="col-2-product-img">
-                        <img src={this.props.imgmain} width="100%" id="ProductImg" alt="description" />
+                        <img src={"/"+this.props.imgmain} width="100%" id="ProductImg" alt="description" />
                         <div className="small-img-row">
                             <div className="small-img-col">
-                                <img src="./images/gallery-1.jpg" width="100%" className="small-img" alt="description" />
+                                <img src="/images/gallery-1.jpg" width="100%" className="small-img" alt="description" />
                             </div>
                             <div className="small-img-col">
-                                <img src="./images/gallery-2.jpg" width="100%" className="small-img" alt="description" />
+                                <img src="/images/gallery-2.jpg" width="100%" className="small-img" alt="description" />
                             </div>
                             <div className="small-img-col">
-                                <img src="./images/gallery-3.jpg" width="100%" className="small-img" alt="description" />
+                                <img src="/images/gallery-3.jpg" width="100%" className="small-img" alt="description" />
                             </div>
                             <div className="small-img-col">
-                                <img src="./images/gallery-4.jpg" width="100%" className="small-img" alt="description" />
+                                <img src="/images/gallery-4.jpg" width="100%" className="small-img" alt="description" />
                             </div>
                         </div>
                     </div>
